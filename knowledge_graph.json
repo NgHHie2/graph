@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "id": "AI",
+      "type": "Lĩnh vực"
+    },
+    {
+      "id": "Xe tự lái",
+      "type": "Ứng dụng"
+    },
+    {
+      "id": "Nhận diện khuôn mặt",
+      "type": "Ứng dụng"
+    },
+    {
+      "id": "Siri",
+      "type": "Trợ lý ảo"
+    },
+    {
+      "id": "ChatGPT",
+      "type": "Trợ lý ảo"
+    },
+    {
+      "id": "Học máy",
+      "type": "Lĩnh vực con của AI"
+    },
+    {
+      "id": "Học sâu",
+      "type": "Lĩnh vực con của AI"
+    },
+    {
+      "id": "Xử lý ngôn ngữ tự nhiên",
+      "type": "Lĩnh vực con của AI"
+    }
+  ],
+  "edges": [
+    {
+      "source": "AI",
+      "target": "Xe tự lái",
+      "relation": "Lĩnh vực con"
+    },
+    {
+      "source": "AI",
+      "target": "Nhận diện khuôn mặt",
+      "relation": "Lĩnh vực con"
+    },
+    {
+      "source": "AI",
+      "target": "Siri",
+      "relation": "Lĩnh vực con"
+    },
+    {
+      "source": "AI",
+      "target": "ChatGPT",
+      "relation": "Lĩnh vực con"
+    },
+    {
+      "source": "AI",
+      "target": "Học máy",
+      "relation": "Lĩnh vực con"
+    },
+    {
+      "source": "AI",
+      "target": "Học sâu",
+      "relation": "Lĩnh vực con"
+    },
+    {
+      "source": "AI",
+      "target": "Xử lý ngôn ngữ tự nhiên",
+      "relation": "Lĩnh vực con"
+    }
+  ]
+}
